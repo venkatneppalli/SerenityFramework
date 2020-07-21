@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="User Registration to the pet-store application" skipped="0" tests="1" time="2.69" timestamp="2020-05-16 08:04:07"><testcase name="As a shopper, I need to register myself as a new user to the pet-store application"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:17332&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: driver.version: ProvideNewDriver). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:17332
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ProvideNewDriver). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:17332
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ProvideNewDriver). See below for more details.&#13;
+com.jpetstore.pages.BasePage.navigateToSignOnPage(BasePage.java:50)&#13;
+com.jpetstore.cucumber.steps.serenity.PetStoreSteps.navigateToLoginPage(PetStoreSteps.java:42)&#13;
+com.jpetstore.cucumber.steps.UserRegistrationSteps.I_Navigate_To_Registration_page(UserRegistrationSteps.java:29)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+</system-err></testcase></testsuite>

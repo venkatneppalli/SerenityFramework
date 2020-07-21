@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Datatable example","As a user, I want to view all the categories","ERROR","2020-05-16T18:54:53.147+05:30[Asia/Calcutta]","0.0","11.83"
+"Purchase pets from the store","As user, I want to view the Pet Types","ERROR","2020-05-16T18:55:27.529+05:30[Asia/Calcutta]","0.0","9.05"
+"User Registration to the pet-store application","As a shopper, I need to register myself as a new user to the pet-store application","ERROR","2020-05-16T18:55:36.581+05:30[Asia/Calcutta]","0.0","5.42"

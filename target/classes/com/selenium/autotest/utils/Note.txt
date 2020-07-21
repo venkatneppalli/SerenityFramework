@@ -1,0 +1,21 @@
+ @SmokeTest @TC002
+  Scenario: search hotel by hotel type
+    When I select hotel type as "Hotel Creek" from dropdown
+    And select other mandatory fields
+    And click on search button
+    Then I validate the hotel type on select hotel page
+    
+  @SmokeTest @TC003
+  Scenario: search hotel by room type
+    When I select location type as "Standard" from dropdown
+    And select other mandatory fields
+    And click on search button
+    Then I validate the room type on select hotel page
+    
+  @SmokeTest @TC004
+  Scenario: search hotel by roomnumbers type
+    When I select location type as "1 - One" from dropdown
+    And select other mandatory fields
+    And click on search button
+    Then I validate the roomnumbers on select hotel page
+ 
